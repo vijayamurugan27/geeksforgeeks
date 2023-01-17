@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+// import New1 from './React/Folder/New1';
+// import Com from './React/Folder/Com';
+////props
+import Props1 from './React/Folder/Props1';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <New1></New1>
+        <Com></Com> */}
+        <Props1></Props1>
+       
       </header>
     </div>
   );
